@@ -12,23 +12,7 @@
     <body>
         <div id="root"></div>
 
-        <script type="text/babel">
-            const ChildComponent = ({ greeting }) => {
-            return (
-                    <div>
-                        <h2>{greeting}</h2>
-                    </div>
-                );
-            };
-
-
-            const App = () => {
-                return (<div>hello<ChildComponent greeting='おはよう'></ChildComponent></div>)
-            }
-            const container = document.getElementById('root')
-
-            const root = ReactDOM.createRoot(container)
-            root.render(<App/>)
+        <script type="text/babel" src="index.jsx">
         </script>
     </body>
 </html>
